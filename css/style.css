@@ -39,7 +39,7 @@ body {
     width: 61.09px;
 }
 
-.test {
+.lol {
     color: red;
 }
 
@@ -52,7 +52,7 @@ body {
     padding: 0; */
 }
 
-.nav-links :hover {
+.nav-links:hover {
     color: #0065FC;
     border-top: 1px solid #0065FC;
 }
