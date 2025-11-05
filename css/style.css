@@ -39,7 +39,9 @@ body {
     width: 61.09px;
 }
 
-
+.test {
+    color: red;
+}
 
 .nav-links {
     display: flex;
@@ -48,6 +50,11 @@ body {
     font-size: 16px;
     /* margin: 0;
     padding: 0; */
+}
+
+.nav-links :hover {
+    color: #0065FC;
+    border-top: 1px solid #0065FC;
 }
 
 a {
@@ -88,6 +95,8 @@ a {
     display: flex;
     justify-content: space-between;
 }
+
+
 
 .hebergements-and-populaires section {
     background-color: var(--main-bg-color);
