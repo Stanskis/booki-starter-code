@@ -143,6 +143,7 @@ header {
     font-size: 18px;
     box-sizing: border-box;
     margin: 1px 0;
+    font-weight: bold;
 }
 
 .search-form .search-button {
