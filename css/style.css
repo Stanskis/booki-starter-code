@@ -73,7 +73,7 @@ header {
 
 .header-content .nav-links {
     display: flex;
-    gap: 68px;
+    justify-content: end;
     list-style: none;
     font-size: 16px;
     margin: 0;
@@ -84,6 +84,10 @@ header {
     padding-top: 15px;
     border-top: 3px solid transparent;
     transition: border-color 0.3s;
+}
+
+.nav-links .nav-item:nth-child(1) {
+    margin-right: 4rem;
 }
 
 .nav-links .nav-item:hover {
