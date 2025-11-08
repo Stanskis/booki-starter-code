@@ -13,10 +13,10 @@ html {
     --filter-bg-color: #DEEBFF;
     --filter-border-color: #D9D9D9;
 
-    --info-fs: 16px;
     --title-section-fs: 22px;
-    --card-title-fs: 16px;
     --title-filter-fs: 18px;
+    --info-fs: 16px;
+    --card-title-fs: 16px;
 }
 
 #hebergements,
