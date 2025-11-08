@@ -538,6 +538,10 @@ a {
 
 
 
+
+
+
+
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
 
@@ -685,10 +689,14 @@ a {
 
     .search-bar-filtres {
         margin-top: 35px;
-        display: flex;
+        display: block;
         gap: 15px;
         flex-wrap: wrap;
         align-items: center;
+    }
+
+    .filtres-subtitle {
+        margin-bottom: 20px;
     }
 
     .search-bar-filtres .filtres-content {
