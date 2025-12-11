@@ -19,6 +19,10 @@ html {
     --card-title-fs: 16px;
 }
 
+h1 {
+    font-size: 22px;
+}
+
 #hebergements,
 #activites {
     scroll-margin-top: 140px;
@@ -93,7 +97,7 @@ header {
     border-top: 3px solid var(--main-color);
 }
 
-.info-group .info-group-body h2 {
+.info-group .info-group-body h1 {
     margin-bottom: 8px;
 }
 
@@ -613,7 +617,7 @@ a {
     }
 
     .nav-links .nav-item:hover {
-        color: none;
+        color: transparent;
         border-top: 0px solid transparent;
     }
 
